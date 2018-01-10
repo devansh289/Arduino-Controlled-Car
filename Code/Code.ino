@@ -1,7 +1,7 @@
-int motor1 = 9;         //motor1 and motor2 --> First motor
-int motor2 = 13;
-int motor3 = 12;        //motor3 and motor4 --> Second motor
-int motor4 = 11;
+const int motor1 = 9;         //motor1 and motor2 --> First motor
+const int motor2 = 13;
+const int motor3 = 12;        //motor3 and motor4 --> Second motor
+const int motor4 = 11;
  
 void setup()
 {
