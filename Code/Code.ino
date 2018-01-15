@@ -16,6 +16,7 @@ void setup()
 
 
 void loop() {
+  // Add while if problems 
   if(Serial.available() > 0) {
     command = Serial.read();
     breaks();
