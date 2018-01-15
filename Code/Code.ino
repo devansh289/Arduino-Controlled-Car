@@ -3,24 +3,25 @@ const int motor2 = 6;
 const int motor3 = 8;        //motor3 and motor4 --> Second motor
 const int motor4 = 9;
 char command;
- 
+
 void setup()
 {
-    pinMode(motor1, OUTPUT);
-    pinMode(motor2, OUTPUT);
-    pinMode(motor3, OUTPUT);
-    pinMode(motor4, OUTPUT);
+  pinMode(motor1, OUTPUT);
+  pinMode(motor2, OUTPUT);
+  pinMode(motor3, OUTPUT);
+  pinMode(motor4, OUTPUT);
 
-    Serial.begin(9600);
+  Serial.begin(9600);
+
 }
 
 
 void loop() {
-  // Add while if problems 
-  if(Serial.available() > 0) {
+  // Add while if problems
+  if (Serial.available() > 0) {
     command = Serial.read();
     breaks();
-    switch(command) {
+    switch (command) {
       case 'F':
         forward();
         break;
