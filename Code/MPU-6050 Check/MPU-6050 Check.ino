@@ -26,8 +26,6 @@
 //
  
 #include <Wire.h>
- 
- 
 void setup()
 {
   Wire.begin();
@@ -35,7 +33,6 @@ void setup()
   Serial.begin(9600);
   Serial.println("\nI2C Scanner");
 }
- 
  
 void loop()
 {
@@ -76,5 +73,5 @@ void loop()
   else
     Serial.println("done\n");
  
-  delay(5000);           // wait 5 seconds for next scan
+  delay(5000);         
 }
