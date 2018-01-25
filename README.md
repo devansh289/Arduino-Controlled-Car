@@ -13,7 +13,7 @@ IN PROGRESS: MPU-6050 Implementation
 - Manual control mode using a RFCOMM app via Bluetooth.
 - IN PROGRESS: MPU6050 Implementation to detect tilt from hand to control the car
 
-## Setup
+## Software Requirements
 
 *	Arduino IDE (http://arduino.cc/en/main/software)
 * Python 3.0 with PIP
